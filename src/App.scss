@@ -4,12 +4,17 @@ $primary-color: #ffd700;
 //if you want to change the fonts download new ones and replace them in the src/assets/fonts folder and the code below
 @font-face {
     font-family: 'Helvetica Neue';
-    src: url('./assets/fonts/helvetica-neu.ttf') format('ttf');
+    src: url('./assets/fonts/helvetica-neu.ttf') format('truetype');
 }
 
 @font-face {
     font-family: 'La Belle Aurore';
     src: url('./assets/fonts/LaBelleAurore.woff2') format('woff2');
+}
+
+@font-face {
+    font-family: 'Poppins';
+    src: url('./assets/fonts/Poppins-Regular.ttf') format('truetype');
 }
 
 @font-face {
