@@ -1,7 +1,7 @@
 import { Link, NavLink } from 'react-router-dom'
 import './index.scss'
 import LogoW from '../../assets/images/HeadShot.JPG'
-import LogoSubtitle from '../../assets/images/logo_sub.png'
+import LogoSubtitle from '../../assets/images/HenselTextWhite.png'
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 import { faEnvelope, faHome, faUser } from '@fortawesome/free-solid-svg-icons'
 import { faLinkedin } from '@fortawesome/free-brands-svg-icons'
