@@ -9,6 +9,23 @@
         max-height: 90%;
     }
 
+    .right-side {
+      position: absolute;
+      right: 10%;
+      top: 50%;
+      transform: translateY(-50%);
+      width: 40%;
+      max-height: 90%;
+
+      img {
+        width: 90%;
+        height: 90%;
+        border-radius: 10px;
+        box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    }
+}
+  
+
     h1{
         color: black;
         font-size: 53px;
@@ -28,9 +45,9 @@
         }
 
         img{
-            margin-left: 20px;
+            margin-left: 40px;
             opacity: 0;
-            width: 32px;
+            width: 80px;
             height: auto;
             animation: rotateIn 1s linear both;
             animation-delay: 1.4s;
@@ -70,44 +87,75 @@
 
 
 @media screen and (max-width: 1200px) {
-    .tags,
-    .home-page h1:before,
-    .home-page h1:after {
+  .tags,
+  .home-page h1:before,
+  .home-page h1:after {
       display: none;
-    }
-  
-    .home-page .text-zone {
+  }
+
+  .home-page .text-zone {
       position: initial;
       width: 100%;
       transform: none;
       padding: 10px;
       box-sizing: border-box;
-    }
-  
-    .home-page .flat-button {
+  }
+
+  .home-page .right-side {
+      position: initial;
+      width: 100%;
+      transform: none;
+      padding: 10px;
+      box-sizing: border-box;
+      margin-top: 20px;
+
+      img {
+          width: 100%;
+          height: auto;
+          border-radius: 10px; /* Optional: Adds rounded corners */
+          box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Optional: Adds a subtle shadow */
+      }
+  }
+
+  .home-page .flat-button {
       float: none;
       display: block;
       margin: 20px auto 0 auto;
       width: 124px;
-    }
-  
-    .logo-container {
-      position: relative;
-      width: 100px;
-      height: auto;
-      top: 50px;
-      right: 0;
-      box-sizing: border-box;
-      margin: auto;
-      left: 0;
-    }
-  
-    .logo-container svg {
-      position: absolute;
-      top: auto;
-      right: auto;
-      bottom: auto;
-      left: 0;
-      margin: auto;
-    }
   }
+}
+
+@media screen and (max-width: 768px) {
+  .home-page .text-zone {
+      width: 100%;
+      padding: 5%;
+      box-sizing: border-box;
+  }
+
+  .home-page .right-side {
+      width: 100%;
+      padding: 5%;
+      box-sizing: border-box;
+      margin-top: 10px;
+  }
+
+  h1 {
+      font-size: 32px;
+
+      &::before {
+          font-size: 14px;
+          margin-top: -30px;
+      }
+  }
+
+  h2 {
+      font-size: 9px;
+      margin-top: 10px;
+  }
+
+  .flat-button {
+      font-size: 12px;
+      padding: 8px 16px;
+      width: auto;
+  }
+}

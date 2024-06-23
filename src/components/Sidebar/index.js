@@ -6,8 +6,7 @@ import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 import { faEnvelope, faHome, faUser } from '@fortawesome/free-solid-svg-icons'
 import { faLinkedin } from '@fortawesome/free-brands-svg-icons'
 
-//create a image to go under the headshot
-//it can simply say my name.
+
 const Sidebar = () => (
     <div className="nav-bar">
         <Link className= "logo" to="/">
