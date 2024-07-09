@@ -48,7 +48,8 @@ const Contact = () => {
                     idx={15} />
                 </h1>
                 <p>
-                    text to contact me here!
+                I would love to hear from you! Whether you have a question, an opportunity, or just want to say hello, please feel 
+                free to send me a message using the form below. I'll get back to you as soon as possible.
                 </p>
                 <div className='contact-form'>
                     <form ref={refForm} onSubmit={sendEmail}>
