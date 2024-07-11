@@ -37,3 +37,13 @@ textarea {
     animation: fadeOut 1s 1s;
     animation-fill-mode: forwards;
 }
+
+@media screen and (max-width: 1200px){
+    .loader-active{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        top: 50%;
+        bottom: 50%;
+    }    
+}

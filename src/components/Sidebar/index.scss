@@ -91,6 +91,12 @@
           content: 'CONTACT';
         }
       }
+      //might want to change to project b/c of overflow on bar.
+      a.portfolio-link {
+        &:after {
+          content: 'PORTFOLIO';
+        }
+      }
   
       a.active {
         svg {
@@ -130,7 +136,7 @@
     }
   }
   
-  .hamburger-icon, .close-icon {
+  .hamburger-icon, .closeIcon {
     display: none;
   }
   
@@ -172,10 +178,14 @@
           width: auto;
           margin-left: 10PX;
         }
-       }
+
+        a svg {
+          opacity: 1 !important;
+        }
+      }
   
        .hamburger-icon,
-       .close-icon {
+       .closeIcon {
           position: absolute;
           top: 15px;
           right: 15px;
