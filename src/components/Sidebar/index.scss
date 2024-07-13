@@ -1,5 +1,3 @@
-//might want to change photo for the logo in sidebar index.js or
-//resize the current one later
 .nav-bar {
     background: #203354;
     width: 60px;
@@ -91,7 +89,7 @@
           content: 'CONTACT';
         }
       }
-      //might want to change to project b/c of overflow on bar.
+      //might want to change naming convention to project b/c of overflow on bar.
       a.portfolio-link {
         &:after {
           content: 'PORTFOLIO';

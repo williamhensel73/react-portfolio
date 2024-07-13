@@ -6,6 +6,8 @@ import portfolioData from '../../data/portfolio.json'
 //import { getDocs, collection } from 'firebase/firestore';
 //import { db } from '../../firebase';
 
+//Manual way works but firebase or a dynamic display would be nice.
+
 const Portfolio = () => { 
     const [letterClass, setLetterClass] = useState('text-animate');
     const [portfolio, setPortfolio] = useState([]);

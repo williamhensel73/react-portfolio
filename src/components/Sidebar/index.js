@@ -7,7 +7,7 @@ import { faBars, faClose, faEnvelope, faHome, faSuitcase, faUser } from '@fortaw
 import { faLinkedin } from '@fortawesome/free-brands-svg-icons'
 import { useState } from 'react'
 
-
+// The portfolio page is hidden from the side bar as it is still being worked on
 const Sidebar = () => {
 
     const [showNav, setShowNav] = useState(false);
@@ -25,9 +25,10 @@ const Sidebar = () => {
             <NavLink onClick={() => setShowNav(false)} exact="true" activeclassname="active" className="about-link" to="/about">
                 <FontAwesomeIcon icon={faUser} color="#FFFFFF"/>
             </NavLink>
+            {/*
             <NavLink onClick={() => setShowNav(false)} exact="true" activeclassname="active" className="portfolio-link" to="/portfolio">
                 <FontAwesomeIcon icon={faSuitcase} color="#FFFFFF"/>
-            </NavLink>
+            </NavLink> */}
             <NavLink onClick={() => setShowNav(false)} exact="true" activeclassname="active" className="contact-link" to="/contact">
                 <FontAwesomeIcon icon={faEnvelope} color="#FFFFFF"/>
             </NavLink>
