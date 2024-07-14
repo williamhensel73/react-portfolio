@@ -3,7 +3,7 @@ import './index.scss'
 import LogoW from '../../assets/images/HeadShot.JPG'
 import LogoSubtitle from '../../assets/images/HenselTextWhite.png'
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
-import { faBars, faClose, faEnvelope, faHome, faSuitcase, faUser } from '@fortawesome/free-solid-svg-icons'
+import { faBars, faClose, faEnvelope, faHome, faUser } from '@fortawesome/free-solid-svg-icons'
 import { faLinkedin } from '@fortawesome/free-brands-svg-icons'
 import { useState } from 'react'
 
@@ -39,7 +39,7 @@ const Sidebar = () => {
         <ul>
             <li>
                 <a target="_blank"
-                 rel="nonreferrer"
+                 rel="noreferrer"
                 href="https://www.linkedin.com/in/william-hensel-940211250/"
                 >
                     <FontAwesomeIcon icon={faLinkedin} color="#FFFFFF"/>
