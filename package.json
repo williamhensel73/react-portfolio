@@ -1,7 +1,7 @@
 {
   "name": "react-portfolio",
   "version": "0.1.0",
-  "homepage": "https://williamhensel73.github.io/react-portfolio",
+  "homepage": "http://williamhensel73.github.io/react-portfolio",
   "private": true,
   "dependencies": {
     "@emailjs/browser": "^4.3.3",
@@ -50,7 +50,7 @@
     ]
   },
   "devDependencies": {
-    "@babel/plugin-proposal-private-property-in-object": "^7.14.5",
+    "@babel/plugin-proposal-private-property-in-object":"7.21.11",
     "gh-pages": "^6.1.1"
   }
 }
