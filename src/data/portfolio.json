@@ -1,34 +1,16 @@
 {
     "portfolio": [
         {
-            "cover": "/portfolio/dummy/PortfolioStress.png",
-            "title": "GGWP",
-            "description": "React, JSX, Tailwind, Jest",
-            "url": "http://google.com"
+            "cover": "/portfolio/dashboard.png",
+            "title": "Earthquake Dashboard",
+            "description": "React, REST API, Recharts, Jest",
+            "url": "https://williamhensel73.github.io/react-portfolio/#/dashboard"
         },
         {
-            "cover": "/portfolio/dummy/PortfolioStress.png",
-            "title": "GGWP",
-            "description": "React, JSX, Tailwind, Jest",
-            "url": "http://google.com"
-        },
-        {
-            "cover": "/portfolio/dummy/PortfolioStress.png",
-            "title": "GGWP",
-            "description": "React, JSX, Tailwind, Jest",
-            "url": "http://google.com"
-        },
-        {
-            "cover": "/portfolio/dummy/PortfolioStress.png",
-            "title": "GGWP",
-            "description": "React, JSX, Tailwind, Jest",
-            "url": "http://google.com"
-        },
-        {
-            "cover": "/portfolio/dummy/PortfolioStress.png",
-            "title": "GGWP",
-            "description": "React, JSX, Tailwind, Jest",
-            "url": "http://google.com"
+            "cover": "/portfolio/portfolio-site.png",
+            "title": "Portfolio Site",
+            "description": "React, React Router, SCSS, GitHub Pages",
+            "url": "https://github.com/williamhensel73/react-portfolio"
         }
     ]
 }

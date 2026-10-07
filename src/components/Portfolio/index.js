@@ -39,8 +39,8 @@ const Portfolio = () => {
                         return (
                             <div className="image-box" key={idx}>
                                 <img 
-                                //should be port.image later and port.title could be port.name or whatever comes from firebase
-                                src={port.cover}
+                                // PUBLIC_URL is "/react-portfolio" on GitHub Pages, so public/ files resolve there too
+                                src={process.env.PUBLIC_URL + port.cover}
                                 className="portfolio-image"
                                 alt="portfolio" />
                                 <div className="content">

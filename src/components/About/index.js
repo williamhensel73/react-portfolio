@@ -27,17 +27,18 @@ const About = () => {
              idx={15}
              />
         </h1>
-        <p>I'm Will, a recent graduate from the University of Wisconsin-Eau Claire
-            I graduated with a bachelor of science with a major in software engineering
-             and a minor in business management. I'm seeking a tech role, primarily
-             in development or software engineering. I hope to grow into a 
-             senior role and be someone an engineering team can rely on. 
+        <p>I'm Will, a web developer at EcreativeWorks, where I've worked for over two years.
+            My day-to-day work is in PHP, other various web centric languages, SQL,
+             and collaborating with the development team. I use AI coding tools
+             daily as part of that workflow. I hold a bachelor of science in software engineering,
+             with a minor in business management, from the University of Wisconsin-Eau Claire.
+             I hope to grow into a senior role and be someone an engineering team can rely on.
              I also would like to lead a team of tech professionals eventually.
         </p>
-        <p>I possess technical skills such as Java, C, HTML, CSS, JavaScript, SQL, 
-             and PHP. Furthermore, I have experience with Git/GitHub, development methodologies, 
-             working with a development team, and the software lifecycle. Other skills I am confident 
-             with are problem-solving, analytical skills, communication, interpersonal 
+        <p>I possess technical skills such as JavaScript, PHP, SQL, HTML, CSS, Java,
+             and C. Furthermore, I have experience with Git/GitHub, REST APIs, development methodologies,
+             working with a development team, and the software lifecycle. Other skills I am confident
+             with are problem-solving, analytical skills, communication, interpersonal
              skills, and learning new concepts quickly.
         </p>
         <p>When I'm not working on projects, I love staying active and engaged with hobbies. 
