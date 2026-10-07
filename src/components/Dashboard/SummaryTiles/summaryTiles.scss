@@ -1,0 +1,32 @@
+.summary-tiles {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 15px;
+
+    .tile {
+        flex: 1 1 180px;
+        display: flex;
+        flex-direction: column;
+        gap: 6px;
+        padding: 20px 24px;
+        background: #fff;
+        border-top: 4px solid #ffd700;
+        border-radius: 10px;
+        box-shadow: 0 2px 10px rgba(32, 51, 84, 0.08);
+    }
+
+    .tile-value {
+        font-family: 'Coolvetica';
+        font-size: 44px;
+        line-height: 1;
+        color: #203354;
+    }
+
+    .tile-label {
+        font-family: 'Poppins';
+        font-size: 13px;
+        letter-spacing: 1px;
+        text-transform: uppercase;
+        color: #555;
+    }
+}
