@@ -21,10 +21,10 @@ const Contact = () => {
 
         emailjs
             .sendForm(
-                'service_medhpom',
-                'template_uxi6l1o',
+                'service_jsvw289',
+                'template_btkq59i',
                 refForm.current,
-                'FR_7z3pjcnJFOy_7A'
+                'wgDJT7nM7YwvwJudk'
             )
             .then(
                 () => {
@@ -76,16 +76,16 @@ const Contact = () => {
             <div className='info-map'>
             William Hensel,
             <br/>
-            Andover,
+            Edina,
             <br/>
             Minnesota
             <br/>
             <span>williamhensel73@gmail.com</span>
             </div>
             <div className='map-wrap'>
-                <MapContainer center={[45.2333, -93.2913]} zoom={12}>
+                <MapContainer center={[44.8897, -93.3499]} zoom={12}>
                     <TileLayer url="https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png" />
-                    <Marker position={[45.2333, -93.2913]}>
+                    <Marker position={[44.8897, -93.3499]}>
                     </Marker>
                 </MapContainer>
             </div>
