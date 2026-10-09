@@ -3,14 +3,9 @@ import Loader from "react-loaders";
 import AnimatedLetters from "../AnimatedLetters/animatedLetters";
 import "./index.scss";
 import portfolioData from '../../data/portfolio.json'
-//import { getDocs, collection } from 'firebase/firestore';
-//import { db } from '../../firebase';
 
-//Manual way works but firebase or a dynamic display would be nice.
-
-const Portfolio = () => { 
+const Portfolio = () => {
     const [letterClass, setLetterClass] = useState('text-animate');
-    //const [portfolio, setPortfolio] = useState([]);
 
     useEffect(() => {
         const timer = setTimeout(() => {
@@ -22,15 +17,6 @@ const Portfolio = () => {
         }
     });
 
-    useEffect(() => {
-       // getPortfolio();
-    }, []);
-/*
-    const getPortfolio = async () => {
-        const querySnapshot = await getDocs(collection(db, 'portfolio'));
-        setPortfolio(querySnapshot.docs.map((doc) => doc.data()));
-    }
-*/
     const renderPortfolio = (portfolio) => {
         return (
             <div className="images-container">
@@ -42,7 +28,7 @@ const Portfolio = () => {
                                 // PUBLIC_URL is "/react-portfolio" on GitHub Pages, so public/ files resolve there too
                                 src={process.env.PUBLIC_URL + port.cover}
                                 className="portfolio-image"
-                                alt="portfolio" />
+                                alt={port.title} />
                                 <div className="content">
                                     <p className="title">{port.title}</p>
                                     <h4 className="description">{port.description}</h4>

@@ -1,6 +1,12 @@
 {
     "portfolio": [
         {
+            "cover": "/portfolio/minmaxlifts.png",
+            "title": "Min-Max Lifts",
+            "description": "Workout, nutrition, and stats tracker",
+            "url": "https://minmaxlifts.com"
+        },
+        {
             "cover": "/portfolio/dashboard.png",
             "title": "Earthquake Dashboard",
             "description": "React, REST API, Recharts, Jest",
