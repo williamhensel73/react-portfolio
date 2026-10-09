@@ -18,19 +18,19 @@ const Sidebar = () => {
             <img className="sub-logo" src={LogoSubtitle} alt="William Hensel in text" />
         </Link>
         <nav className={showNav ? 'mobile-show' : ''}>
-            <NavLink onClick={() => setShowNav(false)} exact="true" activeclassname="active" to="/">
+            <NavLink onClick={() => setShowNav(false)} to="/">
                 <FontAwesomeIcon icon={faHome} color="#FFFFFF"/>
             </NavLink>
-            <NavLink onClick={() => setShowNav(false)} exact="true" activeclassname="active" className="about-link" to="/about">
+            <NavLink onClick={() => setShowNav(false)} className="about-link" to="/about">
                 <FontAwesomeIcon icon={faUser} color="#FFFFFF"/>
             </NavLink>
-            <NavLink onClick={() => setShowNav(false)} exact="true" activeclassname="active" className="portfolio-link" to="/portfolio">
+            <NavLink onClick={() => setShowNav(false)} className="portfolio-link" to="/portfolio">
                 <FontAwesomeIcon icon={faSuitcase} color="#FFFFFF"/>
             </NavLink>
-            <NavLink onClick={() => setShowNav(false)} exact="true" activeclassname="active" className="dashboard-link" to="/dashboard">
+            <NavLink onClick={() => setShowNav(false)} className="dashboard-link" to="/dashboard">
                 <FontAwesomeIcon icon={faChartColumn} color="#FFFFFF"/>
             </NavLink>
-            <NavLink onClick={() => setShowNav(false)} exact="true" activeclassname="active" className="contact-link" to="/contact">
+            <NavLink onClick={() => setShowNav(false)} className="contact-link" to="/contact">
                 <FontAwesomeIcon icon={faEnvelope} color="#FFFFFF"/>
             </NavLink>
 
